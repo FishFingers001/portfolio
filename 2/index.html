@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevStudio – Agencja Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="overlay">
+      <h1>DevStudio</h1>
+      <p>Tworzymy nowoczesne strony i aplikacje</p>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#o-nas">O nas</a></li>
+      <li><a href="#projekty">Projekty</a></li>
+      <li><a href="#kontakt">Kontakt</a></li>
+    </ul>
+  </nav>
+
+  <section id="o-nas">
+    <h2>Kim jesteśmy?</h2>
+    <p>Jesteśmy zespołem programistów i projektantów UI/UX. Tworzymy responsywne strony, aplikacje oraz sklepy internetowe.</p>
+    <div class="counters">
+      <div><span class="counter" data-target="150">100+</span><p>Zrealizowanych projektów</p></div>
+      <div><span class="counter" data-target="5">2+</span><p>Lat doświadczenia</p></div>
+      <div><span class="counter" data-target="50">98+</span><p>Zadowolonych klientów</p></div>
+    </div>
+  </section>
+
+  <section id="projekty">
+    <h2>Nasze projekty</h2>
+    <div class="projects">
+      <div class="card">Strona restauracji</div>
+      <div class="card">Aplikacja rezerwacyjna</div>
+      <div class="card">Sklep online</div>
+    </div>
+  </section>
+
+  <section id="kontakt">
+    <h2>Skontaktuj się z nami</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Imię i nazwisko" id="name" required>
+      <input type="email" placeholder="Email" id="email" required>
+      <textarea placeholder="Wiadomość" id="message" required></textarea>
+      <button type="submit">Wyślij</button>
+      <p class="form-message"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 DevStudio. Wszelkie prawa zastrzeżone.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
