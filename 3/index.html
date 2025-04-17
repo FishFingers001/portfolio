@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja Wizytówka</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">Strona Główna</a></li>
+            <li><a href="#about">O Mnie</a></li>
+            <li><a href="#projects">Projekty</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Cześć, jestem <span class="highlight">Programista</span></h1>
+            <p>Tworzę nowoczesne strony internetowe i aplikacje</p>
+            <button class="cta-button">Poznaj mnie</button>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>O Mnie</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Jestem pasjonatem programowania z wieloletnim doświadczeniem w tworzeniu stron internetowych. Specjalizuję się w technologiach frontendowych i backendowych.</p>
+                <div class="skills">
+                    <h3>Umiejętności</h3>
+                    <div class="skill-bars">
+                        <div class="skill">
+                            <span>HTML/CSS</span>
+                            <div class="bar">
+                                <div class="progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>JS</span>
+                            <div class="bar">
+                                <div class="progress" style="width: 60%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>CSS</span>
+                            <div class="bar">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Moje Projekty</h2>
+        <div class="project-grid">
+            <a href="./1/index.html"><div class="project-card">
+                <img src="screenshot1.png" alt="Projekt 1">
+                <h3>Projekt 1</h3>
+                <p>Opis pierwszego projektu</p>
+            </div></a>
+            <a href="./2/index.html"><div class="project-card">
+                <img src="screenshot2.png" alt="Projekt 2">
+                <h3>Projekt 2</h3>
+                <p>Opis drugiego projektu</p>
+            </div></a>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Kontakt</h2>
+        <div class="contact-content">
+            <form id="contact-form">
+                <input type="text" placeholder="Imię" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Wiadomość" required></textarea>
+                <button type="submit">Wyślij</button>
+            </form>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Moja Wizytówka. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
